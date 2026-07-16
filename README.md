@@ -4,7 +4,7 @@ Predicting telecom customer churn using classical ML models, with a focus on
 handling class imbalance and explaining predictions with SHAP. Includes a
 deployed Streamlit app for live predictions.
 
-🔗 **Live Demo:** [your-app-name.streamlit.app](https://your-app-name.streamlit.app)
+🔗 **Live Demo:** [customer-churn-prediction-simar25.streamlit.app](https://customer-churn-prediction-simar25.streamlit.app/))
 
 ## Problem Statement
 
@@ -42,11 +42,10 @@ information, and subscribed services. ~26% of customers in the dataset churned.
 
 | Model | Precision | Recall | F1-Score | ROC-AUC |
 |---|---|---|---|---|
-| Logistic Regression | 0.xx | 0.xx | 0.xx | 0.xx |
-| Random Forest | 0.xx | 0.xx | 0.xx | 0.xx |
-| XGBoost | 0.xx | 0.xx | 0.xx | 0.xx |
+| Logistic Regression | 0.530815 | 0.713904 | 0.608894 | 0.827605 |
+| Random Forest | 0.553738 | 0.633690 | 0.591022 | 0.813508 |
+| XGBoost | 0.556604 | 0.631016 | 0.591479 | 0.813603 |
 
-*(Fill in with your actual numbers from the comparison table you generated in Phase 4.)*
 
 **XGBoost** was selected as the final model based on [state your reason — e.g.
 best recall on the churn class, since missing an actual churner is costlier
