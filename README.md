@@ -71,10 +71,8 @@ Python, pandas, scikit-learn, XGBoost, imbalanced-learn (SMOTE), SHAP, Streamlit
 ## How to Run Locally
 
 ```bash
-git clone https://github.com/<your-username>/customer-churn-prediction.git
+git clone https://github.com/Simar25/customer-churn-prediction.git
 cd customer-churn-prediction
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
-## Project Structure
