@@ -62,7 +62,7 @@ than a false alarm].
 - Customers subscribed to **fewer add-on services** are more likely to churn,
   suggesting engagement with more services increases retention.
 
-![SHAP Summary Plot](reports/shap_summary.png)
+![SHAP Summary Plot](shap_summary.png)
 
 ## Tech Stack
 
